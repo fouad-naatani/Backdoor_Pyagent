@@ -1,5 +1,9 @@
 # Backdoor_Pyagent
 Backdoor basée sur le concept de connexion inverse afin d'établir le contrôle à distance de la machine cible  &lt;&lt;— le backdoor (client) et le listener (serveur) — >> (hacking éthique)
+- **Une connexion inverse** est un mécanisme où la machine ciblée initie la connexion vers une machine de contrôle, au lieu que l’attaquant s’y connecte directe
+<img width="743" height="364" alt="image" src="https://github.com/user-attachments/assets/6cb9f4ee-e426-424d-96f8-304bc533f8e7" />
+
+---
 # 1. Rôle de chacun
 
 - **Listener (serveur)** : reste en écoute sur une adresse IP et un port. Il attend qu’un client (la machine ciblée) se connecte. C’est l’interface de l’opérateur humain : il envoie des commandes au client, reçoit les réponses et gère les transferts de fichiers.
